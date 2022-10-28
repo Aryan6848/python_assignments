@@ -1,0 +1,16 @@
+#in this method we expect that user will input data in qoutes and comma seperated
+"""
+l1=list(e for e in eval(input("Enter the name of city")))
+print(l1)
+"""
+# using while loop > in this method we donot expect user will input data in qoutes but we expect that after every data input he will press enter .
+
+print("How many cities you want to enter ")
+n=int(input())
+l1=[]
+i=1
+while i<=n:
+    l1.append(input())
+    i+=1
+
+print(l1)
